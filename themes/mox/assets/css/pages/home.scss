@@ -1,0 +1,13 @@
+.slick {
+    position relative;
+    
+    img {
+        margin: 0 auto;
+    }
+    
+    .prev-arrow,
+    .next-arrow {
+        position: absolute;
+        font-size: 20px;
+    }
+}

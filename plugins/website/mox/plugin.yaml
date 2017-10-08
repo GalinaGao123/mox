@@ -1,0 +1,16 @@
+plugin:
+    name: Mox
+    description: 电影插件
+    author: website
+    icon: oc-icon-cubes
+    homepage: ''
+navigation:
+    mox:
+        label: Mox
+        url: website/mox/movies
+        icon: icon-cubes
+        sideMenu:
+            mox.movies:
+                label: 电影
+                url: website/mox/movies
+                icon: icon-video-camera

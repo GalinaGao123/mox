@@ -1,0 +1,11 @@
+title: 电影
+modelClass: Website\Mox\Models\Movie
+list: $/website/mox/models/movie/columns.yaml
+recordUrl: 'website/mox/movies/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

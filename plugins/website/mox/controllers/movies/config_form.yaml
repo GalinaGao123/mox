@@ -1,0 +1,11 @@
+name: Movies
+modelClass: Website\Mox\Models\Movie
+form: $/website/mox/models/movie/fields.yaml
+defaultRedirect: website/mox/movies
+create:
+    redirect: 'website/mox/movies/update/:id'
+    redirectClose: website/mox/movies
+update:
+    redirect: website/mox/movies
+    redirectClose: website/mox/movies
+preview: {  }

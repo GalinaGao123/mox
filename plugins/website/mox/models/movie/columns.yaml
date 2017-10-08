@@ -1,0 +1,12 @@
+columns:
+    title:
+        label: 名称
+        type: text
+        searchable: true
+    desc:
+        label: 简介
+        type: text
+    published_at:
+        label: 上映时间
+        type: date
+        sortable: true
