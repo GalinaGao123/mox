@@ -98,7 +98,7 @@ return [
     |
     */
 
-    'disableCoreUpdates' => false,
+    'disableCoreUpdates' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -289,7 +289,7 @@ return [
     |
     */
 
-    'defaultMask' => ['file' => null, 'folder' => null],
+    'defaultMask' => ['file' => '777', 'folder' => '777'],
 
     /*
     |--------------------------------------------------------------------------

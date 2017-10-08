@@ -55,10 +55,10 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'port'      => '',
-            'database'  => 'database',
+            'port'      => '3306',
+            'database'  => 'mox',
             'username'  => 'root',
-            'password'  => '',
+            'password'  => 'qq7654321',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
