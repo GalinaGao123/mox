@@ -1,4 +1,4 @@
-<?php namespace Website\Mox;
+<?php namespace Gasper\Mox;
 
 use System\Classes\PluginBase;
 

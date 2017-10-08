@@ -1,0 +1,6 @@
+plugin:
+    name: 'gasper.mox::lang.plugin.name'
+    description: 'gasper.mox::lang.plugin.description'
+    author: gasper
+    icon: oc-icon-diamond
+    homepage: ''
