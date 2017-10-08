@@ -1,0 +1,29 @@
+[2017-10-08 06:39:37] production.ERROR: InvalidArgumentException: There are no commands defined in the "util" namespace.
+
+Did you mean one of these?
+    october:util set build
+    october:util compile js
+    october:util compile less
+    october:util compile scss
+    october:util compile assets
+    october:util compile lang
+    october:util purge thumbs
+    october:util purge uploads
+    october:util purge orphans
+    october:util git pull in D:\sites\mox\modules\system\console\OctoberUtil.php:79
+Stack trace:
+#0 [internal function]: System\Console\OctoberUtil->handle()
+#1 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#2 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#3 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(October\Rain\Foundation\Application), Array, Object(Closure))
+#4 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Container\Container.php(549): Illuminate\Container\BoundMethod::call(Object(October\Rain\Foundation\Application), Array, Array, NULL)
+#5 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Console\Command.php(180): Illuminate\Container\Container->call(Array)
+#6 D:\sites\mox\vendor\symfony\console\Command\Command.php(262): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+#7 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Console\Command.php(167): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+#8 D:\sites\mox\vendor\symfony\console\Application.php(888): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 D:\sites\mox\vendor\symfony\console\Application.php(224): Symfony\Component\Console\Application->doRunCommand(Object(System\Console\OctoberUtil), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 D:\sites\mox\vendor\symfony\console\Application.php(125): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Console\Application.php(88): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 D:\sites\mox\vendor\laravel\framework\src\Illuminate\Foundation\Console\Kernel.php(121): Illuminate\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 D:\sites\mox\artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 {main}  
