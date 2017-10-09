@@ -4,6 +4,6 @@ $('#carousel').slick({
     fade: true,
     speed: 1000,
     infinite: true,
-    prevArrow: '<div class="prev-arrow"><i class="fa fa-angle-left"></i></div>',
-    nextArrow: '<div class="next-arrow"><i class="fa fa-angle-right"></i></div>'
+    prevArrow: '<div class="prev-arrow"><img src="assets/images/arrow-left.png"></div>',
+    nextArrow: '<div class="next-arrow"><img src="assets/images/arrow-right.png"></div>'
 });
