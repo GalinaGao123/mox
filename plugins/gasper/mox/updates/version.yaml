@@ -1,2 +1,23 @@
 1.0.1:
-    - Initialize plugin.
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table gasper_mox_movies'
+    - builder_table_create_gasper_mox_movies.php
+1.0.3:
+    - 'Created table gasper_mox_categories'
+    - builder_table_create_gasper_mox_categories.php
+1.0.4:
+    - 'Updated table gasper_mox_movies'
+    - builder_table_update_gasper_mox_movies.php
+1.0.5:
+    - 'Created table gasper_mox_languages'
+    - builder_table_create_gasper_mox_languages.php
+1.0.6:
+    - 'Updated table gasper_mox_movies'
+    - builder_table_update_gasper_mox_movies_2.php
+1.0.7:
+    - 'Created table gasper_mox_tags'
+    - builder_table_create_gasper_mox_tags.php
+1.0.8:
+    - 'Created table gasper_mox_movie_tag'
+    - builder_table_create_gasper_mox_movie_tag.php

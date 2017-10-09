@@ -1,0 +1,10 @@
+name: Categories
+form: $/gasper/mox/models/category/fields.yaml
+modelClass: Gasper\Mox\Models\Category
+defaultRedirect: gasper/mox/categories
+create:
+    redirect: 'gasper/mox/categories/update/:id'
+    redirectClose: gasper/mox/categories
+update:
+    redirect: gasper/mox/categories
+    redirectClose: gasper/mox/categories

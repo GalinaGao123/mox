@@ -1,0 +1,20 @@
+columns:
+    title:
+        label: 标题
+        type: text
+        searchable: true
+    category:
+        label: 分类
+        type: text
+        select: title
+        relation: category
+    language:
+        label: 语言
+        type: text
+        select: title
+        relation: language
+    tags:
+        label: 标签
+        type: text
+        select: title
+        relation: tags

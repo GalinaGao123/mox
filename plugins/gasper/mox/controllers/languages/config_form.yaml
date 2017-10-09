@@ -1,0 +1,10 @@
+name: Languages
+form: $/gasper/mox/models/language/fields.yaml
+modelClass: Gasper\Mox\Models\Language
+defaultRedirect: gasper/mox/languages
+create:
+    redirect: 'gasper/mox/languages/update/:id'
+    redirectClose: gasper/mox/languages
+update:
+    redirect: gasper/mox/languages
+    redirectClose: gasper/mox/languages

@@ -1,0 +1,11 @@
+title: Movies
+modelClass: Gasper\Mox\Models\Movie
+list: $/gasper/mox/models/movie/columns.yaml
+recordUrl: 'gasper/mox/movies/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

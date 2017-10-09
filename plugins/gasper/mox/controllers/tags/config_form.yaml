@@ -1,0 +1,10 @@
+name: Tags
+form: $/gasper/mox/models/tag/fields.yaml
+modelClass: Gasper\Mox\Models\Tag
+defaultRedirect: gasper/mox/tags
+create:
+    redirect: 'gasper/mox/tags/update/:id'
+    redirectClose: gasper/mox/tags
+update:
+    redirect: gasper/mox/tags
+    redirectClose: gasper/mox/tags

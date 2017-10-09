@@ -1,0 +1,10 @@
+name: Movies
+form: $/gasper/mox/models/movie/fields.yaml
+modelClass: Gasper\Mox\Models\Movie
+defaultRedirect: gasper/mox/movies
+create:
+    redirect: 'gasper/mox/movies/update/:id'
+    redirectClose: gasper/mox/movies
+update:
+    redirect: gasper/mox/movies
+    redirectClose: gasper/mox/movies
