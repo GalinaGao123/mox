@@ -1,0 +1,7 @@
+fields:
+    title:
+        label: 标题
+        span: auto
+        oc.commentPosition: ''
+        required: 1
+        type: text

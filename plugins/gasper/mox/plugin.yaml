@@ -1,6 +1,28 @@
 plugin:
-    name: 'gasper.mox::lang.plugin.name'
-    description: 'gasper.mox::lang.plugin.description'
+    name: Mox
+    description: 提供电影功能
     author: gasper
     icon: oc-icon-diamond
     homepage: ''
+navigation:
+    mox:
+        label: Mox
+        url: gasper/mox/movies
+        icon: icon-diamond
+        sideMenu:
+            mox.movies:
+                label: 电影
+                url: gasper/mox/movies
+                icon: icon-video-camera
+            mox.categories:
+                label: 分类
+                url: gasper/mox/categories
+                icon: icon-reorder
+            mox.languages:
+                label: 语言
+                url: gasper/mox/languages
+                icon: icon-language
+            mox.tags:
+                label: 标签
+                url: gasper/mox/tags
+                icon: icon-tags

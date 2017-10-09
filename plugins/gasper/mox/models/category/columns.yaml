@@ -1,0 +1,5 @@
+columns:
+    title:
+        label: 标题
+        type: text
+        searchable: true
